@@ -1,3 +1,5 @@
+
+<h1>sagar commit</h1>
 <div *ngIf="contact" class="row">
     <div class="col-md-12">
       <h2 *ngIf="contact._id">Contact Details</h2>
@@ -27,5 +29,5 @@
       <button class="btn btn-danger" *ngIf="contact._id" (click)="deleteContact(contact._id)">Delete</button>
     </form>
   </div>
-  
+
   <button class="btn btn-primary" *ngIf="!contact._id" (click)="createContact(contact)">Create</button>
